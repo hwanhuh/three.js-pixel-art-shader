@@ -1,0 +1,34 @@
+{
+  "name": "three-pixel-art-shader",
+  "version": "1.0.0",
+  "description": "A collection of shaders and post-processing effects for creating a pixel-art look in three.js.",
+  "type": "module",
+  "main": "./dist/three-pixel-art-shader.umd.cjs",
+  "module": "./dist/three-pixel-art-shader.js",
+  "exports": {
+    "import": "./dist/three-pixel-art-shader.js",
+    "require": "./dist/three-pixel-art-shader.umd.cjs"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite --config vite.config.example.js",
+    "build": "vite build",
+    "build:example": "vite build --config vite.config.example.js",
+    "preview": "vite preview",
+    "deploy": "npm run build:example && gh-pages -d dist"
+  },
+  "author": "Hwan Heo",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "lil-gui": "^0.19.1",
+    "vite": "^5.0.0",
+    "vite-plugin-glsl": "^1.3.0"
+  }
+}
