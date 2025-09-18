@@ -196,14 +196,14 @@ function loadModel(url) {
 }
 
 // Initial model load
-loadModel('./assets/fox_quad.glb');
+loadModel(new URL('./assets/fox_quad.glb', import.meta.url).href);
 
 // Model selector UI
 document.getElementById('fox-btn').addEventListener('click', () => {
-    loadModel('./assets/fox_quad.glb');
+    loadModel(new URL('./assets/fox_quad.glb', import.meta.url).href);
 });
 document.getElementById('sample-btn').addEventListener('click', () => {
-    loadModel('./assets/sample.glb');
+    loadModel(new URL('./assets/sample.glb', import.meta.url).href);
 });
 
 // --- Intro Animation State ---
