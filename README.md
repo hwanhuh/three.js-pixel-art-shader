@@ -8,8 +8,6 @@ This package includes a `PixelArtMaterial` for cel-shaded/quantized lighting, an
 
 [Link to live demo (GitHub Pages)](https://hwanhuh.github.io/three.js-pixel-art-shader/)
 
-*(You will need to set up GitHub Pages for this link to work)*
-
 ## Installation
 
 ```bash
