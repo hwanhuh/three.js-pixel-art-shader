@@ -202,10 +202,12 @@ loadModel(new URL('./assets/fox_quad.glb', import.meta.url).href);
 document.getElementById('fox-btn').addEventListener('click', () => {
     loadModel(new URL('./assets/fox_quad.glb', import.meta.url).href);
 });
-document.getElementById('sample-btn').addEventListener('click', () => {
-    loadModel(new URL('./assets/sample.glb', import.meta.url).href);
+document.getElementById('starfish-btn').addEventListener('click', () => {
+    loadModel(new URL('./assets/starfish.glb', import.meta.url).href);
 });
-
+document.getElementById('cat-btn').addEventListener('click', () => {
+    loadModel(new URL('./assets/cat.glb', import.meta.url).href);
+});
 // --- Intro Animation State ---
 const introAnimation = {
     isActive: false,
