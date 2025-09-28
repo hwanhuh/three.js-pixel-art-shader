@@ -4,6 +4,8 @@ A collection of shaders, materials, and post-processing effects to achieve a pix
 
 This package includes a `PixelArtMaterial` for cel-shaded/quantized lighting, an `OutlineMaterial` for cartoon-style outlines, and a `PixelationPass` for CRT-like screen curvature, scanlines, and resolution scaling.
 
+![](teaser.webp)
+
 ## Demo
 
 [Link to live demo (GitHub Pages)](https://hwanhuh.github.io/three.js-pixel-art-shader/)
